@@ -1,301 +1,186 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meliorit</title>
-    <link rel="stylesheet" href="./css/style.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="icon" href="media/ecoico.ico">
+	<title>Экология</title>
 </head>
+
 <body>
-    <div class="page">
-        <header class="header">
-            <div class="container">
-                <div class="header__content">
-                    <div class="header__box">
-                        <img src="./img/header/Logo.png" alt="" class="header__logo">
-                        <p class="header__text">Официальный поставщик
-                            Palo Alto и Fortinet в России</p>
-                    </div>
-                    <div class="header__box">
-                        <select name="/" class="header__select">
-                            <option value="/" class="header__option">Межсетевые экраны</option>
-                        </select>
-                        <a href="#" class="header__a">Консалтинг и аудит</a>
-                        <select name="/" class="header__select">
-                            <option value="/" class="header__optin">Блог</option>
-                        </select>
-                        <select name="/" class="header__select">
-                            <option value="/" class="header__optin">О компании</option>
-                        </select>
-                        <a href="#" class="header__box__img">
-                            <img src="./img/header/1.svg" alt="" class="header__photo">
-                        </a>
-                        <a href="#" class="header__box__img">
-                            <img src="./img/header/2.svg" alt="" class="header__photo">
-                        </a>
-                    </div>
-                </div> <!-- header__content -->
-                <div class="header__sector">
-                    <div>
-                        <h1 class="header__title">Межсетевые экраны <span> нового </span>поколения</h1>
-                        <div class="header__subtitle">Сократите затраты на обеспечение информационной безопасности и окупите вложения уже через шесть месяцев</div>
-                        <a href="#" class="btn">Читать статью</a>
-                    </div>
-                    <img src="./img/header/header-pc.png" alt="" class="header__pc">
-                </div>
-            </div> <!-- container -->
-        </header>
-        <section class="intro">
-            <div class="container">
-                <div class="intro__content">
-                    <img src="./img/header/header-pc.png" alt="" class="intro__photo">
-                    <div class="intro__box">
-                        <div class="intro__minibox">
-                            <h2 class="intro__title">Помощь в выборе модели</h2>
-                            <p class="intro__subtitle">Сколько компьютеров в вашей локальной сети?</p>
-                            <form action="/" method="get"  class="intro__form" enctype="multipart/form-data">
-                                <input name="/" class="intro__input"></input>
-                                <button type="submit" class="btn">Продолжить</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="models">
-            <div class="container">
-                <div class="mod__sector">
-                    <h2 class="mod__title">Популярные модели</h2>
-                    <div class="mod__question">Какую модель выбрать?</div>
-                </div>
-                    <div class="models__content">
-                        <div class="mod__box">
-                            <div>
-                                <h2 class="mod__box__title">PA-220</h2>
-                                <p class="mod__box__text">Подходит для небольших организаций, филиалов и торговых точек</p>
-                                <img src="./img/models/1.png" alt="">
-                                    <div class="mod__minibox">
-                                        <div class="mod__minibox-1">
-                                            <div class="mod__minibox__suptitle">Пропускная способность</div>
-                                            <div class="mod__minibox__subtitle">500 Mbps</div>
-                                        </div>
-                                        <div class="mod__minibox-2">
-                                            <div class="mod__minibox__suptitle">Максимальное кол-во сессий</div>
-                                            <div class="mod__minibox__subtitle">64 000</div>
-                                        </div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="mod__box">
-                            <div>
-                                <h2 class="mod__box__title">PA-800</h2>
-                                <p class="mod__box__text">Предназначен для офисов филиалов и предприятий среднего бизнеса</p>
-                                <img src="./img/models/2.png" alt="">
-                                <div class="mod__minibox">
-                                    <div class="mod__minibox-1">
-                                        <div class="mod__minibox__suptitle">Пропускная способность</div>
-                                        <div class="mod__minibox__subtitle">1 900 Mbps</div>
-                                    </div>
-                                    <div class="mod__minibox-2">
-                                        <div class="mod__minibox__suptitle">Максимальное кол-во сессий</div>
-                                        <div class="mod__minibox__subtitle">192 000</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mod__box">
-                            <div>
-                                <h2 class="mod__box__title">PA-3200</h2>
-                                <p class="mod__box__text">Предназначен для офисов филиалов и предприятий среднего бизнеса</p>
-                                <img src="./img/models/3.png" alt="">
-                                <div class="mod__minibox">
-                                    <div class="mod__minibox-1">
-                                        <div class="mod__minibox__suptitle">Пропускная способность</div>
-                                        <div class="mod__minibox__subtitle">8,8 Gbps</div>
-                                    </div>
-                                    <div class="mod__minibox-2">
-                                        <div class="mod__minibox__suptitle">Максимальное кол-во сессий</div>
-                                        <div class="mod__minibox__subtitle">3 000 000</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mod__box">
-                            <div>
-                                <h2 class="mod__box__title">PA-400</h2>
-                                <p class="mod__box__text">Для организаций, которые хотят обеспечить наилучший уровень кибербезопасности</p>
-                                <img src="./img/models/4.png" alt="">
-                                <div class="mod__minibox">
-                                    <div class="mod__minibox-1">
-                                        <div class="mod__minibox__suptitle">Пропускная способность</div>
-                                        <div class="mod__minibox__subtitle">5,2/4,7 Gbps</div>
-                                    </div>
-                                    <div class="mod__minibox-2">
-                                        <div class="mod__minibox__suptitle">Максимальное кол-во сессий</div>
-                                        <div class="mod__minibox__subtitle">400 000</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        <div class="btn models-btn">Все модели</div>
-            </div>
-        </section>
-        <section class="subscription">
-            <div class="container">
-                    <div class="mod__sector">
-                        <h2 class="mod__title">Подписки</h2>
-                        <div class="mod__question">Как выбрать подписку?</div>
-                    </div>
-                <div class="subs__content">
-                    <div class="subs__box">
-                        <div>
-                            <div class="div__box">
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                            </div>
-                            <h4 class="subs__title">Autofocus</h4>
-                        </div>
-                        <p class="subs__text">Аналитика и профилактика, основанные на собранной информации</p>
-                    </div>
-                    <div class="subs__box">
-                        <div>
-                            <div class="div__box">
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                            </div>
-                            <h4 class="subs__title">Global Protect</h4>
-                        </div>
-                        <p class="subs__text">Позволяет применять политики безопасности для пользователей, работающих удаленно</p>
-                    </div>
-                    <div class="subs__box">
-                        <div>
-                            <div class="div__box">
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                                <div class="div__box__item"></div>
-                            </div>
-                            <h4 class="subs__title">URL Filtering</h4>
-                        </div>
-                        <p class="subs__text">Позволяет контролировать интернет-активность</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="accordeon">
-            <div class="container">
-                <div class="accor__content">
-                    <h2 class="accor__title">Часто задаваемые вопросы</h2>
-                    <div class="accor__box">
-                        <div class="accor__items">
-                            <h5 class="accor__subtitle" data-collapse="#accor__1">Как работает межсетевой экран?</h5>
-                            <p class="accor__text" id="accor__1">Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы. <a href="#"> Подробнее...</a></p>
-                        </div>
-                        <div class="accor__items">
-                            <h5 class="accor__subtitle" data-collapse="#accor__2">Сколько стоит установка межсетевого экрана?</h5>
-                            <p class="accor__text"  >Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы. <a href="#"> Подробнее...</a></p>
-                        </div>
-                        <div class="accor__items">
-                            <h5 class="accor__subtitle" data-collapse="#accor__3">Какие бывают межсетевые экраны?</h5>
-                            <p class="accor__text" id="accor__3">Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы. <a href="#"> Подробнее...</a></p>
-                        </div>
-                        <div class="accor__items">
-                          <h5 class="accor__subtitle" data-collapse="#accor__4">Для чего нужен межсетевой экран?</h5>
-                            <p class="accor__text" id="accor__4">Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы. <a href="#"> Подробнее...</a></p>
-                        </div>
-                        <div class="accor__items">
-                            <h5 class="accor__subtitle" data-collapse="#accor__5">Как выбрать межсетевой экран?</h5>
-                            <p class="accor__text" id="accor__5">Сеть нуждается в защите от внешних угроз. Хищение данных, несанкционированный доступ и повреждения могут сказаться на работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы обезопасить себя от разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его основные типы. <a href="#"> Подробнее...</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="news">
-            <div class="container">
-                <h2 class="news__title">Новости</h2>
-                <div class="news__content">
-                    <div class="news__items">
-                        <a href="#" class="news__text">Контейнерные межсетевые экраны Palo Alto серии CN</a>
-                    </div>
-                    <div class="news__items">
-                        <a href="#" class="news__text">Защита от узвимости CVE-2021-34527, публично известной как «Print Nightmare»</a>
-                    </div>
-                    <div class="news__items">
-                        <a href="#" class="news__text">Новая линейка межсетевых экранов Palo Alto PA-400 Series</a>
-                    </div>
-                    <div class="news__items">
-                        <a href="#" class="news__text">Что такое Next Generation Firewall?</a>
-                    </div>
-                    <div class="news__items">
-                        <a href="#" class="news__text">Контейнерные межсетевые экраны Palo Alto серии CN</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__content">
-                    <div class="footer__items">
-                        <div>Palo Alto Networks</div>
-                        <div>Подписки Palo Alto Networks</div>
-                        <div>Prisma</div>
-                        <div>Cortex</div>
-                    </div>
-                    <div class="footer__items">
-                        <div>Блог</div>
-                        <div>Статьи про Palo Alto Networks</div>
-                        <div>Политика Конфиденциальности</div>
-                    </div>
-                    <div class="footer__items">
-                        <div>
-                            <img src="./img/footer/1.svg" alt="">
-                            <div>Адрес: 115201, Россия, Москва, Котляковская улица, 6, стр. 8</div>
-                        </div>
-                        <div>
-                            <img src="./img/footer/2.svg" alt="">
-                            <div>+7 (499) 444-81-80</div>
-                        </div>
-                        <div>
-                            <img src="./img/footer/3.svg" alt="">
-                            <div>E-mail: hello@meliorit.ru</div>
-                        </div>
-                        <div>
-                            <img src="./img/footer/4.svg" alt="">
-                            <div>Время работы: 9:00-18:30</div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="footer__end">Copyright © 2018 Meliorit.ru. Все права защищены. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</div>
-            </div>
-        </footer>
-    </div>
+	<section id="navbar">
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container-fluid">
+		<a class="navbar-brand" href="#">
+			Fantastic 5
+			</a>
+		<button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse"
+			id="navbarSupportedContent">
+			<ul class="navbar-nav m-auto">
+			<li class="nav-item">
+				<a class="nav-link active"
+				aria-current="page"
+				href="#">Үй</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"
+				href="#problem">Көйгөй</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"
+				href="#info">Кербайланыш</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"
+				href="#solution">Чечим</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link"
+				href="#footer">Биздин команда</a>
+			</li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	</section>
+
+	<!-- banner -->
+	<section id="banner">
+	<div class="container-fluid" id="banner-container">
+		<div class="row" id="banner-row">
+		<div class="col-md-6" id="banner-col" style="text-align:center">
+			<h2>
+        Салам! Бул жерде сиз Чек-Абаддагы экологиясы жөнүндө маалыматты табасыз
+			</h2>
+		</div>
+		<div class="col-md-6" id="banner-col2">
+			<img class="rounded mx-auto d-block" src="./img/c1.jpg" alt="logo"/>
+		</div>
+		</div>
+	</div>
+	</section>
+
+	<!-- services -->
+	<section id="problem">
+	<h1 class="text-center">Көйгөйлөр</h1>
+	<div class="container-fluid" id="service-container">
+		<div class="row" id="banner-row">
+      <p style="padding:20px">Проблемы села Чек-Абад</p>
+		<div class="col-md-4" id="service-col1">
+			<img
+			src="./img/chemi.jpg"
+			class="img-fluid rounded mx-auto d-block"
+			alt="..."
+			/>
+			<h3>Химикаттар</h3>
+			
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+
+		</div>
+		<div class="col-md-4" id="service-col2">
+			<img
+			src="./img/dry.jpg"
+			class="img-fluid rounded mx-auto d-block"
+			alt="..."
+			/>
+			<h3>Кургакчылык</h3>
+			
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+
+		</div>
+		<div class="col-md-4" id="service-col3">
+			<img
+			src="./img/sel.jpg"
+			class="img-fluid rounded mx-auto d-block"
+			alt="..."
+			/>
+			<h3>Сел</h3>
+			
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			</p>
+
+		</div>
+		</div>
+	</div>
+	</section>
+
+	<!-- about Us -->
+	<section id="info">
+	<h1 class="text-center">Кербайланыш</h1>
+	<div class="container-fluid" id="about-container">
+		<div class="row" id="banner-row">
+		<div class="col-md-6" id="about-col">
+			<h3>Жашоочулар эмне дейт?</h3>
+			<p>Биз Чек-Абаддын жашоочулар менен байланыштык. Алар оз пикирлери менен акылдашты.</p>
+		</div>
+		<div class="col-md-6" id="banner-col2">
+      <a href="https://docs.google.com/document/d/1XzS7TTm_uxsH68PPP_sNiauU-sXPCOmTiVYzDS8OKRY/edit" 
+         class="btn btn-success btn-lg active" role="button">Сурамжылоонун результаттары</a>
+		</div>
+		</div>
+	</div>
+	</section>
 
 
+	<!-- product -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./app.js"></script>
+	<section id="solution">
+	<h1 class="text-center">Чечимдер</h1>
+	<div class="container-fluid" id="product-container">
+		<div class="row" id="banner-row">
+		<div class="col-md-6" id="about-col">
+			<img
+			class="img-responsive rounded mx-auto d-block"
+			src="images/gfg.png"
+			alt=""
+			/>
+		</div>
+		<div class="col-md-6" id="product-col2" style="padding:30px">
+			<ul>
+			<li>*</li>
+			<li>*<li>
+			<li>*</li>
+			<li>*</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	</section>
+
+	<!-- footer -->
+	<section id="footer">
+	<section id="banner">
+		<div class="container-fluid" id="banner-container">
+		<div class="row" id="banner-row">
+			<div class="col-md-4" id="footer-col1">
+
+	<!-- Optional JavaScript; choose one of the two! -->
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script
+	src=
+"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+	integrity=
+"sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+	crossorigin="anonymous"
+	></script>
 </body>
 </html>
